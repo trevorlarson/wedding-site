@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/wedding-site/static/css/main.190ea81c.chunk.css",
-    "main.js": "/wedding-site/static/js/main.df7239c6.chunk.js",
-    "main.js.map": "/wedding-site/static/js/main.df7239c6.chunk.js.map",
-    "runtime-main.js": "/wedding-site/static/js/runtime-main.91d98e9a.js",
-    "runtime-main.js.map": "/wedding-site/static/js/runtime-main.91d98e9a.js.map",
+    "main.js": "/wedding-site/static/js/main.ace89d8d.chunk.js",
+    "main.js.map": "/wedding-site/static/js/main.ace89d8d.chunk.js.map",
+    "runtime-main.js": "/wedding-site/static/js/runtime-main.28bb3bfb.js",
+    "runtime-main.js.map": "/wedding-site/static/js/runtime-main.28bb3bfb.js.map",
     "static/css/2.c33bf66e.chunk.css": "/wedding-site/static/css/2.c33bf66e.chunk.css",
-    "static/js/2.2204eacb.chunk.js": "/wedding-site/static/js/2.2204eacb.chunk.js",
-    "static/js/2.2204eacb.chunk.js.map": "/wedding-site/static/js/2.2204eacb.chunk.js.map",
-    "static/js/3.182b80cd.chunk.js": "/wedding-site/static/js/3.182b80cd.chunk.js",
-    "static/js/3.182b80cd.chunk.js.map": "/wedding-site/static/js/3.182b80cd.chunk.js.map",
+    "static/js/2.ac340c09.chunk.js": "/wedding-site/static/js/2.ac340c09.chunk.js",
+    "static/js/2.ac340c09.chunk.js.map": "/wedding-site/static/js/2.ac340c09.chunk.js.map",
+    "static/js/3.822af77f.chunk.js": "/wedding-site/static/js/3.822af77f.chunk.js",
+    "static/js/3.822af77f.chunk.js.map": "/wedding-site/static/js/3.822af77f.chunk.js.map",
     "index.html": "/wedding-site/index.html",
     "static/css/2.c33bf66e.chunk.css.map": "/wedding-site/static/css/2.c33bf66e.chunk.css.map",
     "static/css/main.190ea81c.chunk.css.map": "/wedding-site/static/css/main.190ea81c.chunk.css.map",
-    "static/js/2.2204eacb.chunk.js.LICENSE.txt": "/wedding-site/static/js/2.2204eacb.chunk.js.LICENSE.txt",
+    "static/js/2.ac340c09.chunk.js.LICENSE.txt": "/wedding-site/static/js/2.ac340c09.chunk.js.LICENSE.txt",
     "static/media/About.scss": "/wedding-site/static/media/Hello Paris Sans Regular.18f25d4b.ttf",
     "static/media/about-left.7ea31278.jpg": "/wedding-site/static/media/about-left.7ea31278.jpg",
     "static/media/about-right.7609b908.jpg": "/wedding-site/static/media/about-right.7609b908.jpg",
     "static/media/Landing.scss": "/wedding-site/static/media/landing.a4ddb6a6.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.91d98e9a.js",
+    "static/js/runtime-main.28bb3bfb.js",
     "static/css/2.c33bf66e.chunk.css",
-    "static/js/2.2204eacb.chunk.js",
+    "static/js/2.ac340c09.chunk.js",
     "static/css/main.190ea81c.chunk.css",
-    "static/js/main.df7239c6.chunk.js"
+    "static/js/main.ace89d8d.chunk.js"
   ]
 }
