@@ -2,11 +2,17 @@
 
 .schedule-bgrnd {
     position: relative;
-    min-height: 100vh;
+    min-height: 150vh;
     display: table;
     background-color: $secondary-color;
     text-align: center;
     overflow: hidden;
+}
+
+.ln-brk {
+    width: 70vw;
+    border-top: 3px solid $dark-grey;
+    margin: auto;
 }
 
 .schedule-msg {
@@ -24,5 +30,5 @@
 }
 
 .schedule-spacing {
-    height: 5vh;
+    height: 10vh;
 }

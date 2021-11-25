@@ -19,7 +19,7 @@ class Accomodations extends React.Component {
                           Hotel 1
                         </p>
                         <p>
-                          Descriptions
+                          Address
                         </p>
                         <p>Website</p>
                     </Row>
@@ -28,7 +28,7 @@ class Accomodations extends React.Component {
                           Hotel 2
                         </p>
                         <p>
-                          Descriptions
+                          Address
                         </p>
                         <p>Website</p>
                     </Row>
@@ -37,7 +37,7 @@ class Accomodations extends React.Component {
                           Hotel 3
                         </p>
                         <p>
-                          Descriptions
+                          Address
                         </p>
                         <p>Website</p>
                     </Row>

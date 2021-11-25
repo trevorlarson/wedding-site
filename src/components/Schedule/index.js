@@ -13,6 +13,7 @@ class Schedule extends React.Component {
                             schedule
                         </p>
                     </Row>
+                    <hr className="ln-brk"/>
                     <Row className="schedule-spacing"/>
                     <Row className="schedule-txt">
                         <p>

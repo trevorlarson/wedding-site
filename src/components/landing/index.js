@@ -1,7 +1,6 @@
 import React from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import "../../styles/Landing.scss";
-import header_image from '../../resources/landing.jpg'
 
 class Landing extends React.Component {
   render() {

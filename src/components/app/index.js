@@ -8,6 +8,7 @@ import About from '../about';
 import Footer from '../footer'
 import Accomodations from '../Accomodations';
 import Schedule from '../Schedule';
+import Rsvp from '../rsvp';
 
 const TITLE = 'The Larson Wedding'
 class App extends React.Component {
@@ -22,6 +23,7 @@ class App extends React.Component {
                 <About/>
                 <Accomodations/>
                 <Schedule/>
+                <Rsvp/>
                 <Footer/>
             </div>
         )
