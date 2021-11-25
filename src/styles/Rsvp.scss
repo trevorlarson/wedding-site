@@ -4,7 +4,7 @@
     position: relative;
     min-height: 100vh;
     display: table;
-    background-color: $primary-color    ;
+    background-color: $primary-color;
     text-align: center;
     overflow: hidden;
 }
@@ -16,7 +16,15 @@
 }
 
 .rsvp-form {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     font-size: 2.5vh;
+}
+
+.iform-frame {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
 }
 
 .rsvp-spacing {
