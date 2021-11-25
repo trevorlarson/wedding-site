@@ -17,7 +17,7 @@ class Landing extends React.Component {
                         /> */}
                         <div className="title-text">
                             <p>
-                                trevor & chelsey
+                                Trevor & Chelsey
                             </p>
                         </div>
                     </Col>

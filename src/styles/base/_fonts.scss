@@ -8,11 +8,18 @@
     font-style: normal;
   }
   
+@font-face {
+font-family: Tamoro;
+src: url('../../fonts/TamoroScript.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
 body {
     font-family: Lato, Tahoma, serif;
 }
 
 .hdr-msg {
     font-family: Hello-Paris;
-    font-size: 5em;
+    font-size: 7vh;
 }

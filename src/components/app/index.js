@@ -6,6 +6,8 @@ import Landing from '../landing'
 import Welcome from '../welcome';
 import About from '../about';
 import Footer from '../footer'
+import Accomodations from '../Accomodations';
+import Schedule from '../Schedule';
 
 const TITLE = 'The Larson Wedding'
 class App extends React.Component {
@@ -18,6 +20,8 @@ class App extends React.Component {
                 <Landing/>
                 <Welcome/>
                 <About/>
+                <Accomodations/>
+                <Schedule/>
                 <Footer/>
             </div>
         )

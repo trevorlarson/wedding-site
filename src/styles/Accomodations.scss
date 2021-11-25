@@ -1,0 +1,33 @@
+@import './base/variables';
+
+.accomodations-bgrnd {
+    position: relative;
+    min-height: 100vh;
+    display: table;
+    background-color: $off-white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.accomodations-msg {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    color: $dark-grey;
+    object-fit: cover;
+}
+
+.accomodations-txt {
+    font-size: 2.5vh;
+    padding-bottom: 5vh;
+}
+
+.accomodations-spacing {
+    height: 5vh;
+}
+
+.acm-header {
+    font-size: 4vh;
+    text-decoration: underline;
+}
