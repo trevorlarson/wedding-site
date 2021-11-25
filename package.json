@@ -1,6 +1,6 @@
 {
   "name": "wedding-site",
-  "homepage": "http://tlarson.github.io/wedding-site",
+  "homepage": "http://trevorlarson.github.io/wedding-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "react-helmet": "^6.1.0"
   }
 }
