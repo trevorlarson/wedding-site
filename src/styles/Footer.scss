@@ -1,0 +1,14 @@
+@import './base/variables';
+
+
+.footer-container {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0 0px 0;
+    background-color: $primary-color;
+}
+
+.copy-txt {
+    color: $white;
+}

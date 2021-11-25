@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&display=swap');
+
+@font-face {
+    font-family: Hello-Paris;
+    src: url('../../fonts/Hello Paris Sans Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+body {
+    font-family: Lato, Tahoma, serif;
+}
+
+.hdr-msg {
+    font-family: Hello-Paris;
+    font-size: 5em;
+}

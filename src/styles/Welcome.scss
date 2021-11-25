@@ -1,0 +1,25 @@
+@import './base/variables';
+
+.welcome-bgrnd {
+    position: relative;
+    min-height: 100vh;
+    display: table;
+    background-color: $primary-color;
+    text-align: center;
+    overflow: hidden;
+}
+
+.welcome-msg {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10vw;
+    color: $dark-grey;
+}
+
+.welcome-txt {
+    font-size: 2.5vh;
+}
+
+.welcome-spacing {
+    height: 5vh;
+}
