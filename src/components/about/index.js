@@ -30,7 +30,7 @@ class About extends React.Component {
                   </Col>
                 </Row>
                 <Row>
-                  <hr className="ln-brk align-self-center" />
+                  <hr className="about-ln-brk align-self-center" />
                 </Row>
                 <Row className="hwm-block">
                   <Col className="hwm-header align-self-center">
