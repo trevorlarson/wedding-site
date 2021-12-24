@@ -3,15 +3,19 @@
 
 .about-bgrnd {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     display: table;
     background-color: $secondary-color;
     text-align: center;
 }
 
-.about-page {
+.about-outer {
     display: table-cell;
     vertical-align: middle;
+    height: 80vh;
+}
+
+.about-page {
     color: $off-white;
     font-family: 'Lato';
 }
