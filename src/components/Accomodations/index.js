@@ -5,7 +5,7 @@ import "../../styles/Accomodations.scss";
 class Accomodations extends React.Component {
   render() {
     return (
-      <div>
+      <section id="accomodations">
         <Container fluid className="accomodations-bgrnd" >
           <Container className="accomodations-page">
             <Container className="accomodations-msg">
@@ -80,7 +80,7 @@ class Accomodations extends React.Component {
             </Container>
           </Container>
         </Container>
-      </div>
+      </section>
     );
   }
 }

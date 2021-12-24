@@ -5,7 +5,7 @@ import "../../styles/Schedule.scss";
 class Schedule extends React.Component {
   render() {
     return (
-      <div>
+      <section id='schedule'>
           <Container fluid className="schedule-bgrnd" >
                 <Container className="schedule-msg">
                     <Row className="hdr-msg">
@@ -41,7 +41,7 @@ class Schedule extends React.Component {
                     </Row>
                 </Container>
             </Container>
-      </div>
+      </section>
     );
   }
 }  

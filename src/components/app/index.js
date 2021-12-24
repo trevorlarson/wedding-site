@@ -12,41 +12,25 @@ import Schedule from '../Schedule';
 import Rsvp from '../rsvp';
 import Photos from '../photos';
 import Navigation from '../navigation';
-import { Route, BrowserRouter as Router } from 'react-router-dom';
+import { Redirect, Route, Switch } from 'react-router-dom';
 
 const TITLE = 'The Larson Wedding'
 class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <Router>
-                    <Helmet>
-                        <title>{TITLE}</title>
-                    </Helmet>
-                    <Navigation />
-                    <Route
-                        path={ROUTES.LANDING}
-                        component={Landing}
-                    />
-                    <Photos />
-                    <Route
-                        path={ROUTES.ABOUT}
-                        component={About}
-                    />
-                    <Route
-                        path={ROUTES.ACCOMODATIONS}
-                        component={Accomodations}
-                    />
-                    <Route
-                        path={ROUTES.SCHEDULE}
-                        component={Schedule}
-                    />
-                    <Route
-                        path={ROUTES.RSVP}
-                        component={Rsvp}
-                    />
-                    <Footer />
-                </Router>
+                <Helmet>
+                    <title>{TITLE}</title>
+                </Helmet>
+                <Navigation />
+                <Landing />
+                <Photos />
+                <About />
+                <Accomodations />
+                <Schedule />
+                <Rsvp />
+                <Footer />
+                <Route render={() => <Redirect to="/" />} />
             </div>
         )
     }

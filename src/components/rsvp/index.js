@@ -6,7 +6,7 @@ import "../../styles/Rsvp.scss";
 class Rsvp extends React.Component {
   render() {
     return (
-      <div>
+      <section id='rsvp'>
           <Container fluid className="rsvp-bgrnd" >
                 <Container className="rsvp-msg">
                     <Row className="hdr-msg">
@@ -25,7 +25,7 @@ class Rsvp extends React.Component {
                     </Row>
                 </Container>
             </Container>
-      </div>
+      </section>
     );
   }
 }  

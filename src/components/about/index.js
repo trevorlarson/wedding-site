@@ -7,7 +7,7 @@ import about_right from '../../resources/about-right.jpg'
 class About extends React.Component {
   render() {
     return (
-      <div className="outer">
+      <section id="ourstory">
         <Container fluid className="about-bgrnd">
           <Container className='about-outer align-self-center'>
             <Container className="about-page align-self-center">
@@ -48,7 +48,7 @@ class About extends React.Component {
             </Container>
           </Container>
         </Container>
-      </div>
+      </section>
     );
   }
 }

@@ -6,7 +6,7 @@ class Landing extends React.Component {
   render() {
     return (
         
-        <div>
+        <div id="home">
             <Container fluid className="Landing" >
                 <Row>
                     <Col>
