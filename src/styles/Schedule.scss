@@ -4,15 +4,16 @@
     position: relative;
     min-height: 100vh;
     display: table;
-    background-color: $secondary-color;
+    background-color: $off-white;
     text-align: center;
     overflow: hidden;
 }
 
 .ln-brk {
-    width: 70vw;
+    width: 90vw;
     border-top: 3px solid $dark-grey;
     margin: auto;
+    background-color: $off-white;
 }
 
 .schedule-msg {

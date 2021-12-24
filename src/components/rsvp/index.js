@@ -19,7 +19,7 @@ class Rsvp extends React.Component {
                       <div className="rsvp-form">
                         <IframeResizer
                           src="https://app.smartsheet.com/b/form/5df19fa7f8294c32bab7c0cccd69a92b"
-                          style={{ width: '650px',maxWidth: '80vw', minHeight: '70vh'}}
+                          style={{ width: '600px',maxWidth: '80vw', minHeight: '600px'}}
                         />
                       </div>
                     </Row>

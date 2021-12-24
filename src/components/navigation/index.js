@@ -8,11 +8,11 @@ class Navigation extends React.Component {
     render() {
         return (
             <div>
-                <Navbar fixed="bottom" className="navbar" bg="light" expand="lg">
+                <Navbar fixed="bottom" className="navbar" bg="blur" expand="lg">
                     <Container>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="ml-auto">
+                            <Nav className="ml-auto m-auto">
                                 <Link className="nav-link" smooth to={ROUTES.LANDING}>
                                     Home
                                 </Link>
