@@ -6,16 +6,19 @@
     display: table;
     background-color: $off-white;
     text-align: center;
-    overflow: hidden;
+}
+
+.accomodations-page {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Lato';
 }
 
 .accomodations-msg {
-    display: table-cell;
     vertical-align: middle;
     padding-top: 10vw;
     padding-bottom: 10vw;
     color: $dark-grey;
-    object-fit: cover;
 }
 
 .accomodations-txt {
@@ -30,4 +33,13 @@
 .acm-header {
     font-size: 4vh;
     text-decoration: underline;
+}
+
+@media only screen and (orientation: landscape) {
+    .accomodations-page {
+      display: flex;
+    }
+    .accomodations-msg {
+        width: 50%;
+    }
 }

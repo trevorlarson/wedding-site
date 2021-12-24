@@ -6,46 +6,83 @@ class Accomodations extends React.Component {
   render() {
     return (
       <div>
-          <Container fluid className="accomodations-bgrnd" >
-                <Container className="accomodations-msg">
-                    <Row className="hdr-msg">
-                        <p>
-                            accomodations
-                        </p>
-                    </Row>
-                    <Row className="accomodations-spacing"/>
-                    <Row className="accomodations-txt">
-                        <p className="acm-header">
-                          Hotel 1
-                        </p>
-                        <p>
-                          Address
-                        </p>
-                        <p>Website</p>
-                    </Row>
-                    <Row className="accomodations-txt">
-                        <p className="acm-header">
-                          Hotel 2
-                        </p>
-                        <p>
-                          Address
-                        </p>
-                        <p>Website</p>
-                    </Row>
-                    <Row className="accomodations-txt">
-                        <p className="acm-header">
-                          Hotel 3
-                        </p>
-                        <p>
-                          Address
-                        </p>
-                        <p>Website</p>
-                    </Row>
-                </Container>
+        <Container fluid className="accomodations-bgrnd" >
+          <Container className="accomodations-page">
+            <Container className="accomodations-msg">
+              <Row className="hdr-msg">
+                <p>
+                  accomodations
+                </p>
+              </Row>
+              <Row className="accomodations-spacing" />
+              <Row className="accomodations-txt">
+                <p className="acm-header">
+                  Hotel 1
+                </p>
+                <p>
+                  Address
+                </p>
+                <p>Website</p>
+              </Row>
+              <Row className="accomodations-txt">
+                <p className="acm-header">
+                  Hotel 2
+                </p>
+                <p>
+                  Address
+                </p>
+                <p>Website</p>
+              </Row>
+              <Row className="accomodations-txt">
+                <p className="acm-header">
+                  Hotel 3
+                </p>
+                <p>
+                  Address
+                </p>
+                <p>Website</p>
+              </Row>
             </Container>
+            <Container className="accomodations-msg">
+              <Row className="hdr-msg">
+                <p>
+                  things to do
+                </p>
+              </Row>
+              <Row className="accomodations-spacing" />
+              <Row className="accomodations-txt">
+                <p className="acm-header">
+                  Accomodation 1
+                </p>
+                <p>
+                  Address
+                </p>
+                <p>Website</p>
+              </Row>
+              <Row className="accomodations-txt">
+                <p className="acm-header">
+                  Accomodation 2
+                </p>
+                <p>
+                  Address
+                </p>
+                <p>Website</p>
+              </Row>
+              <Row className="accomodations-txt">
+                <p className="acm-header">
+                  Accomodation 3
+                </p>
+                <p>
+                  Address
+                </p>
+                <p>Website</p>
+              </Row>
+            </Container>
+          </Container>
+        </Container>
       </div>
     );
   }
-}  
+}
 
 export default Accomodations;

@@ -9,34 +9,43 @@ class About extends React.Component {
     return (
       <div className="outer">
           <Container fluid className="about-bgrnd" >
-                <Container className="about-page">
-                  <Row>
-                    <Col>
-                      <Image className="sbs-image"
-                              src={about_left}
-                          />
-                    </Col>
-                    <Col className="about-msg">
-                      <Row className="hdr-msg">
-                          <p>
-                              about us
-                          </p>
-                      </Row>
-                      <Row className="about-spacing"/>
-                      <Row className="about-txt">
-                          <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue justo vel arcu egestas bibendum. Suspendisse laoreet lacinia nisl in pellentesque. Nullam dignissim tempor elit. Nunc porta suscipit tortor, ac accumsan ipsum faucibus sed. Pellentesque feugiat eu elit in sollicitudin. Integer sit amet dictum libero. In ac dignissim quam. Quisque volutpat enim ac ex rhoncus, eget hendrerit dui sollicitudin. Pellentesque porta accumsan imperdiet. Quisque at orci fringilla, commodo mauris quis, pellentesque purus. Morbi ultrices metus in metus sagittis, a suscipit mi cursus. Pellentesque vel lectus ipsum. Vivamus consequat est at dui eleifend commodo. Mauris ut sodales quam.
-                          </p>
-                      </Row>
-                    </Col>
-                    <Col>
-                      <Image className="sbs-image"
-                              src={about_right}
-                          />
-                    </Col>
-                  </Row>
-                </Container>
+            <Container className="about-page">
+              <Container className="left-block align-self-center">
+                <Image className="left-image"
+                        src={about_left}
+                    />
+              </Container>
+              <Container className="right-block align-self-center">
+                <Row className="hwm-block align-self-center">
+                  <Col className="hwm-header align-self-center">
+                    <p>
+                        how we met
+                    </p>
+                  </Col>
+                  <Col className="hwm-text align-self-center">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue justo vel arcu egestas bibendum. Suspendisse laoreet lacinia nisl in pellentesque. Nullam dignissim tempor elit. Nunc porta suscipit tortor, ac accumsan ipsum faucibus sed. Pellentesque feugiat eu elit in sollicitudin. Integer sit amet dictum libero. In ac dignissim quam. Quisque volutpat enim ac ex rhoncus, eget hendrerit dui sollicitudin. Pellentesque porta accumsan imperdiet. Quisque at orci fringilla, commodo mauris quis, pellentesque purus. Morbi ultrices metus in metus sagittis, a suscipit mi cursus. Pellentesque vel lectus ipsum. Vivamus consequat est at dui eleifend commodo. Mauris ut sodales quam.
+                    </p>
+                  </Col>
+                </Row>
+                <Row>
+                  <hr className="ln-brk align-self-center"/>
+                </Row>
+                <Row className="hwm-block">
+                  <Col className="hwm-header align-self-center">
+                    <p>
+                        the proposal
+                    </p>
+                  </Col>
+                  <Col className="hwm-text align-self-center">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue justo vel arcu egestas bibendum. Suspendisse laoreet lacinia nisl in pellentesque. Nullam dignissim tempor elit. Nunc porta suscipit tortor, ac accumsan ipsum faucibus sed. Pellentesque feugiat eu elit in sollicitudin. Integer sit amet dictum libero. In ac dignissim quam. Quisque volutpat enim ac ex rhoncus, eget hendrerit dui sollicitudin. Pellentesque porta accumsan imperdiet. Quisque at orci fringilla, commodo mauris quis, pellentesque purus. Morbi ultrices metus in metus sagittis, a suscipit mi cursus. Pellentesque vel lectus ipsum. Vivamus consequat est at dui eleifend commodo. Mauris ut sodales quam.
+                    </p>
+                  </Col>
+                </Row>
+              </Container>
             </Container>
+        </Container>
       </div>
     );
   }

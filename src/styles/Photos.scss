@@ -1,0 +1,29 @@
+@import './base/variables';
+
+.photos-bgrnd {
+    position: relative;
+    height: 100vh;
+    background-color: $primary-color;
+    vertical-align: middle;
+    display: table;
+}
+
+.outer-page {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.photos-page {  
+    vertical-align: middle;
+    padding: 3vw;
+}
+
+@media only screen and (orientation: landscape) {
+    .photos-page {
+        display: flex;
+    }
+}
+
+.sbs-image {
+    object-fit: cover;
+}

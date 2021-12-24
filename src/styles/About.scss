@@ -3,39 +3,65 @@
 
 .about-bgrnd {
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
     display: table;
     background-color: $secondary-color;
     text-align: center;
-    overflow: hidden;
 }
 
 .about-page {
     display: table-cell;
     vertical-align: middle;
-    padding: 30px;
     color: $off-white;
     font-family: 'Lato';
 }
 
-.about-msg {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.about-txt {
-    font-size: 2vh;
-}
-
-.about-spacing {
-    height: 5vh;
-    width: 5vw;
-}
-
-.sbs-image {
-    padding: 20px;
+.left-image {
     max-height: 70vh;
-    max-width: 70vw;
-    object-fit: cover;
-    // border: 5px solid $primary-color;    
+    max-width: 33vw;
+}
+
+.left-block {
+    visibility: hidden;
+    max-height: 0px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.right-block {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 30px;
+}
+
+.hwm-block {
+    padding: 10px;
+}
+
+.hwm-header {
+    font-size: 5vh;
+    width: 20%;
+    vertical-align: middle;
+    text-align: left;
+    font-family: Hello-Paris;
+}
+
+.ln-brk {
+    width: 60vw;
+    border-top: 3px solid $dark-grey;
+}
+
+@media only screen and (orientation: landscape) {
+    .about-page {
+      display: flex;
+    }
+    .left-block {
+        visibility: visible;
+        max-height: 100%;
+        width: 33vw;
+    }
+    .right-block {
+        width: 67vw;
+        padding-right: 10vw;
+    }
 }

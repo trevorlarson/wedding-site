@@ -9,6 +9,7 @@ import Footer from '../footer'
 import Accomodations from '../Accomodations';
 import Schedule from '../Schedule';
 import Rsvp from '../rsvp';
+import Photos from '../photos';
 
 const TITLE = 'The Larson Wedding'
 class App extends React.Component {
@@ -19,7 +20,8 @@ class App extends React.Component {
                     <title>{ TITLE }</title>
                 </Helmet>
                 <Landing/>
-                <Welcome/>
+                <Photos/>
+                {/* <Welcome/> */}
                 <About/>
                 <Accomodations/>
                 <Schedule/>
