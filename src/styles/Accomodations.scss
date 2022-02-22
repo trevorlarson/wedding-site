@@ -11,7 +11,7 @@
 .accomodations-page {
     display: table-cell;
     vertical-align: middle;
-    font-family: 'Lato';
+    font-family: 'Abhaya';
 }
 
 .accomodations-msg {
@@ -33,13 +33,4 @@
 .acm-header {
     font-size: 4vh;
     text-decoration: underline;
-}
-
-@media only screen and (orientation: landscape) {
-    .accomodations-page {
-      display: flex;
-    }
-    .accomodations-msg {
-        width: 50%;
-    }
 }

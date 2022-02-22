@@ -1,6 +1,6 @@
 import React from 'react';
 import * as ROUTES from '../../constants/routes.js';
-import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap';
+import { Container, Nav, Navbar} from 'react-bootstrap';
 import "../../styles/Navigation.scss";
 import { HashLink as Link } from 'react-router-hash-link';
 

@@ -6,7 +6,6 @@ class Schedule extends React.Component {
   render() {
     return (
       <section id='schedule'>
-        <hr className="ln-brk"/>
           <Container fluid className="schedule-bgrnd" >
                 <Container className="schedule-msg">
                     <Row className="hdr-msg">

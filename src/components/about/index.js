@@ -1,8 +1,8 @@
 import React from 'react';
 import { Col, Container, Row, Image } from 'react-bootstrap';
 import "../../styles/About.scss";
-import about_left from '../../resources/about-left.jpg'
-import about_right from '../../resources/about-right.jpg'
+import the_proposal from '../../resources/the-proposal.jpg'
+import how_we_met from '../../resources/how-we-met.jpg'
 
 class About extends React.Component {
   render() {
@@ -11,13 +11,13 @@ class About extends React.Component {
         <Container fluid className="about-bgrnd">
           <Container className='about-outer align-self-center'>
             <Container className="about-page align-self-center">
-              <Container className="left-block align-self-center">
-                <Image className="left-image"
-                  src={about_left}
-                />
-              </Container>
               <Container className="right-block align-self-center">
                 <Row className="hwm-block align-self-center">
+                  <Col className="hwm-image align-self-center">
+                    <Image className="left-image"
+                    src={how_we_met}
+                    />
+                  </Col>
                   <Col className="hwm-header align-self-center">
                     <p>
                       how we met
@@ -30,9 +30,14 @@ class About extends React.Component {
                   </Col>
                 </Row>
                 <Row>
-                  <hr className="about-ln-brk align-self-center" />
+                  <hr className="about-ln-brk" />
                 </Row>
                 <Row className="hwm-block">
+                  <Col className="hwm-image align-self-center">
+                    <Image className="left-image"
+                    src={the_proposal}
+                    />
+                  </Col>
                   <Col className="hwm-header align-self-center">
                     <p>
                       the proposal

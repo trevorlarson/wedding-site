@@ -1,0 +1,62 @@
+@import './base/variables';
+
+$image-width: 180px;
+$mobile-image-width: 30vw;
+$party-color: #864c00;
+
+.party-bgrnd {
+    position: relative;
+    min-height: 100vh;
+    display: table;
+    background-color: $primary-color;
+    text-align: center;
+    overflow: hidden;
+}
+
+.party-title {
+    color: $party-color;
+    padding-top: 40px;
+    font-family: Hello-Paris;
+    font-size: 7vh;
+}
+
+.party-heading-hers {
+    font-family: Hello-Paris;
+    font-size: 4vh;
+    color: $party-color;
+    padding-top: 30px;
+}
+
+.party-heading-his {
+    font-family: Hello-Paris;
+    font-size: 4vh;
+    color: $party-color;
+}
+
+.party-grid {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax($image-width, 1fr) );
+    padding: 40px;
+    column-gap: auto;
+}
+
+.party-img {
+    width: $image-width;
+    height: $image-width;
+    border-radius: 50%;
+}
+
+@media (max-width: 500px) {
+    .party-img {
+        width: $mobile-image-width;
+        height: $mobile-image-width;
+    }
+    .party-grid {
+        grid-template-columns: repeat( auto-fit, minmax($mobile-image-width, 1fr) );
+    }
+}
+
+.party-name {
+    color: $party-color;
+    font-family: 'Abhaya';
+}

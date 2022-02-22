@@ -18,6 +18,9 @@ class Landing extends React.Component {
                             <p>
                                 Trevor & Chelsey
                             </p>
+                            <p className='title-date'>
+                                8.13.2022 - McMinnville, OR
+                            </p>
                         </div>
                     </Col>
                 </Row>

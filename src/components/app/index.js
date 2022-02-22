@@ -2,17 +2,16 @@ import 'bootstrap/scss/bootstrap.scss';
 import '../../styles/App.scss';
 import { Helmet } from 'react-helmet'
 import React from 'react';
-import * as ROUTES from '../../constants/routes.js';
 import Landing from '../landing'
-import Welcome from '../welcome';
 import About from '../about';
 import Footer from '../footer'
 import Accomodations from '../Accomodations';
 import Schedule from '../Schedule';
 import Rsvp from '../rsvp';
+import Party from '../party';
 import Photos from '../photos';
 import Navigation from '../navigation';
-import { Redirect, Route, Switch } from 'react-router-dom';
+import { Redirect, Route } from 'react-router-dom';
 
 const TITLE = 'The Larson Wedding'
 class App extends React.Component {
@@ -29,6 +28,7 @@ class App extends React.Component {
                 <Accomodations />
                 <Schedule />
                 <Rsvp />
+                <Party />
                 <Footer />
                 <Route render={() => <Redirect to="/" />} />
             </div>
