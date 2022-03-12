@@ -10,18 +10,16 @@ class Rsvp extends React.Component {
           <Container fluid className="rsvp-bgrnd" >
                 <Container className="rsvp-msg">
                     <Row className="hdr-msg">
-                        <p>
-                            rsvp
-                        </p>
                     </Row>
                     <Row className="rsvp-spacing"/>
                     <Row>
-                      <div className="rsvp-form">
+                      {/* <div className="rsvp-form">
                         <IframeResizer
-                          src="https://app.smartsheet.com/b/form/5df19fa7f8294c32bab7c0cccd69a92b"
-                          style={{ width: '600px',maxWidth: '80vw', minHeight: '600px'}}
+                          is="x-frame-bypass"
+                          src="https://www.theknot.com/us/trevor-larson-and-chelsey-hitchcock-aug-2022/rsvp"
+                          style={{ width: '100vw', height: '100vh'}}
                         />
-                      </div>
+                      </div> */}
                     </Row>
                 </Container>
             </Container>

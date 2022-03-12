@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 import "../../styles/Landing.scss";
 
 class Landing extends React.Component {
@@ -21,7 +21,10 @@ class Landing extends React.Component {
                             <p className='title-date'>
                                 8.13.2022 - McMinnville, OR
                             </p>
-                        </div>
+                            <Button variant="light" className='rsvp-link' href='https://www.theknot.com/us/trevor-larson-and-chelsey-hitchcock-aug-2022/rsvp' target="_blank">
+                                    RSVP
+                            </Button>
+                        </div>                         
                     </Col>
                 </Row>
             </Container>

@@ -10,10 +10,11 @@ class Schedule extends React.Component {
                 <Container className="schedule-msg">
                     <Row className="hdr-msg">
                         <p>
-                            schedule
+                            schedule coming soon
                         </p>
                     </Row>
-                    <Row className="schedule-spacing"/>
+                    <h2>TODO: FIGURE OUT</h2>
+                    {/* <Row className="schedule-spacing"/>
                     <Row className="schedule-txt">
                         <p>
                           Item 1
@@ -37,7 +38,7 @@ class Schedule extends React.Component {
                         <p>
                           Time
                         </p>
-                    </Row>
+                    </Row> */}
                 </Container>
             </Container>
       </section>

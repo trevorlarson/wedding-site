@@ -2,18 +2,23 @@
 
 .title-text {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: $white;
     font-family: 'Tamoro';
-    font-size: 6vw;
+    font-size: 7vmin;
     font-weight: bold;
     white-space: nowrap;
 }
 
 .title-date {
-    font-size: 2vw;
+    font-size: 3vmin;
+    font-family: Abhaya;
+}
+
+.rsvp-link {
+    font-size: 2vmin;
     font-family: Abhaya;
 }
 

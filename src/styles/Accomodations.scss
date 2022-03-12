@@ -16,21 +16,77 @@
 
 .accomodations-msg {
     vertical-align: middle;
-    padding-top: 10vw;
-    padding-bottom: 10vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
     color: $dark-grey;
 }
 
 .accomodations-txt {
-    font-size: 2.5vh;
+    font-size: 2vh;
+    padding-bottom: 3vh;
+}
+
+.reserved-txt {
+    font-size: 2vh;
     padding-bottom: 5vh;
+    display: grid;
 }
 
 .accomodations-spacing {
-    height: 5vh;
+    height: 1vh;
 }
 
 .acm-header {
-    font-size: 4vh;
-    text-decoration: underline;
+    font-size: 2.5vh;
+}
+
+.oacm-header {
+    font-size: 2.5vh;
+}
+
+.oacm-txt {
+    font-size: 1.5vh;
+}
+
+.inquire-header {
+    font-size: 2vh;
+    padding-bottom: 4vh;
+}
+
+.ttd-block {
+    font-size: 2vh;
+    padding-bottom: 5vh;
+    display: grid;
+}
+
+.ttd-header {
+    font-size: 2.5vh;
+}
+
+.ttd-item {
+    font-size: 1.5vh;
+    margin: 0.2vh;
+}
+
+@media only screen and (orientation: landscape) {
+    .reserved-txt {
+        font-size: 2vh;
+        padding-bottom: 5vh;
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(25vw, 1fr) );
+    }
+
+    .ttd-block {
+        font-size: 2vh;
+        padding-bottom: 5vh;
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(25vw, 1fr) );
+    }
+}
+
+
+@media only screen and (orientation: portrait) {
+    .reserved-item {
+        padding-bottom: 2vh;
+    }
 }

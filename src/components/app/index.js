@@ -27,7 +27,7 @@ class App extends React.Component {
                 <About />
                 <Accomodations />
                 <Schedule />
-                <Rsvp />
+                {/* <Rsvp /> */}
                 <Party />
                 <Footer />
                 <Route render={() => <Redirect to="/" />} />

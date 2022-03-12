@@ -25,9 +25,9 @@ class Navigation extends React.Component {
                                 <Link className="nav-link" smooth to={ROUTES.SCHEDULE}>
                                     Schedule
                                 </Link>
-                                <Link className="nav-link" smooth to={ROUTES.RSVP}>
+                                <a className="nav-link" href={ROUTES.RSVP} target="_blank">
                                     RSVP
-                                </Link>
+                                </a>
                                 <Link className="nav-link" smooth to={ROUTES.PARTY}>
                                     Wedding Party
                                 </Link>

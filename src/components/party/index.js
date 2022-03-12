@@ -17,10 +17,13 @@ import party_tim from '../../resources/party-tim.jpg'
 import party_alison from '../../resources/party-alison.jpg'
 import party_ashlee from '../../resources/party-ashlee.jpg'
 import party_taylor from '../../resources/party-taylor.jpg'
-import party_kenz from '../../resources/party-kenz.jpg'
 import party_sara from '../../resources/party-sara.jpg'
 import party_mckenzie from '../../resources/party-mckenzie.jpg'
 import party_molly from '../../resources/party-molly.jpg'
+import party_courtney from '../../resources/party-courtney.jpg'
+import party_meagan from '../../resources/party-meagan.jpg'
+import party_kenzie from '../../resources/party-kenzie.jpg'
+import party_shelby from '../../resources/party-shelby.jpg'
 
 class Party extends React.Component {
   render() {
@@ -36,52 +39,52 @@ class Party extends React.Component {
             </h2>
             <Container className="party-grid">
               <div className='party-box'>
+                <Image className="party-img" src={party_meagan}/>
+                <p className='party-name'>Meagan Smiley</p>
+              </div>
+              <div className='party-box'>
                 <Image className="party-img" src={party_sample}/>
                 <p className='party-name'>Breanna Fee</p>
               </div>
               <div className='party-box'>
-                <Image className="party-img" src={party_sample}/>
-                <p className='party-name'>Meagan Smiley</p>
+                <Image className="party-img" src={party_shelby}/>
+                <p className='party-name'>Shelby Hitchcock</p>
               </div>
               <div className='party-box'>
-                <Image className="party-img" src={party_alison}/>
-                <p className='party-name'>Alison Jones</p>
+                <Image className="party-img" src={party_sample}/>
+                <p className='party-name'>Sabrina Larson</p>
+              </div>
+              <div className='party-box'>
+                <Image className="party-img" src={party_courtney}/>
+                <p className='party-name'>Courtney Cahill</p>
               </div>
               <div className='party-box'>
                 <Image className="party-img" src={party_ashlee}/>
                 <p className='party-name'>Ashlee Phillips</p>
               </div>
               <div className='party-box'>
-                <Image className="party-img" src={party_taylor}/>
-                <p className='party-name'>Taylor Studinszki</p>
-              </div>
-              <div className='party-box'>
-                <Image className="party-img" src={party_kenz}/>
+                <Image className="party-img" src={party_kenzie}/>
                 <p className='party-name'>Kenzie Johnson</p>
-              </div>
-              <div className='party-box'>
-                <Image className="party-img" src={party_sara}/>
-                <p className='party-name'>Sara Crauer</p>
-              </div>
-              <div className='party-box'>
-                <Image className="party-img" src={party_mckenzie}/>
-                <p className='party-name'>McKenzie Conte</p>
               </div>
               <div className='party-box'>
                 <Image className="party-img" src={party_molly}/>
                 <p className='party-name'>Molly Hughes</p>
               </div>
               <div className='party-box'>
-                <Image className="party-img" src={party_sample}/>
-                <p className='party-name'>Trevor Larson</p>
+                <Image className="party-img" src={party_mckenzie}/>
+                <p className='party-name'>McKenzie Conte</p>
               </div>
               <div className='party-box'>
-                <Image className="party-img" src={party_sample}/>
-                <p className='party-name'>Trevor Larson</p>
+                <Image className="party-img" src={party_alison}/>
+                <p className='party-name'>Alison Jones</p>
               </div>
               <div className='party-box'>
-                <Image className="party-img" src={party_sample}/>
-                <p className='party-name'>Trevor Larson</p>
+                <Image className="party-img" src={party_sara}/>
+                <p className='party-name'>Sara Crauer</p>
+              </div>
+              <div className='party-box'>
+                <Image className="party-img" src={party_taylor}/>
+                <p className='party-name'>Taylor Studinszki</p>
               </div>
             </Container>
             <h2 className='party-heading-his'>
