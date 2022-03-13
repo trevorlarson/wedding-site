@@ -21,7 +21,7 @@ class Landing extends React.Component {
                             <p className='title-date'>
                                 8.13.2022 - McMinnville, OR
                             </p>
-                            <Button variant="light" className='rsvp-link' href='https://www.theknot.com/us/trevor-larson-and-chelsey-hitchcock-aug-2022/rsvp' target="_blank">
+                            <Button variant="outline-primary" className='rsvp-link' href='https://www.theknot.com/us/trevor-larson-and-chelsey-hitchcock-aug-2022/rsvp' target="_blank">
                                     RSVP
                             </Button>
                         </div>                         
