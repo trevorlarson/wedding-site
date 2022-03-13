@@ -39,16 +39,30 @@
 }
 
 .hwm-header {
-    font-size: 4vw;
-    max-width: 30vw;
+    font-size: 2em;
     vertical-align: middle;
     text-align: left;
     font-family: Hello-Paris;
 }
 
+.hwm-text {
+    font-size: 1em;
+}
+
 .about-ln-brk {
     max-width: 100vw;
     border-top: 3px solid $dark-grey;
+}
+
+@media only screen and (orientation: portrait) {
+    .row {
+        display: block;
+        margin: 0;
+    }
+
+    .hwm-header {
+        text-align: center;
+    }
 }
 
 @media only screen and (orientation: landscape) {
@@ -76,5 +90,8 @@
     }
     .right-block {
         padding-left: 3vw;
+    }
+    .hwm-header {
+        font-size: 5em;
     }
 }
