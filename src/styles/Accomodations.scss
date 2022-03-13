@@ -1,5 +1,9 @@
 @import './base/variables';
 
+.hdr-msg {
+    font-size: 8em;
+}
+
 .accomodations-bgrnd {
     position: relative;
     min-height: 100vh;
@@ -22,14 +26,18 @@
 }
 
 .accomodations-txt {
-    font-size: 2vh;
+    font-size: 1.5em;
     padding-bottom: 3vh;
 }
 
 .reserved-txt {
-    font-size: 2vh;
+    font-size: 1em;
     padding-bottom: 5vh;
     display: grid;
+}
+
+.container {
+    padding: 0 0 0 0;
 }
 
 .accomodations-spacing {
@@ -37,35 +45,34 @@
 }
 
 .acm-header {
-    font-size: 2.5vh;
+    font-size: 1.5em;
 }
 
 .oacm-header {
-    font-size: 2.5vh;
+    font-size: 1.5em;
 }
 
 .oacm-txt {
-    font-size: 1.5vh;
+    font-size: 0.7em;
 }
 
 .inquire-header {
-    font-size: 2vh;
+    font-size: 1em;
     padding-bottom: 4vh;
 }
 
 .ttd-block {
-    font-size: 2vh;
+    font-size: 1.5em;
     padding-bottom: 5vh;
     display: grid;
 }
 
 .ttd-header {
-    font-size: 2.5vh;
+    font-size: 1em;
 }
 
 .ttd-item {
-    font-size: 1.5vh;
-    margin: 0.2vh;
+    font-size: 0.7em;
 }
 
 @media only screen and (orientation: landscape) {
@@ -76,11 +83,24 @@
         grid-template-columns: repeat( auto-fit, minmax(25vw, 1fr) );
     }
 
+    .oacm-txt {
+        font-size: 1em;
+    }
+
     .ttd-block {
         font-size: 2vh;
         padding-bottom: 5vh;
         display: grid;
         grid-template-columns: repeat( auto-fit, minmax(25vw, 1fr) );
+    }
+
+
+    .ttd-item {
+        font-size: 1em;
+    }
+
+    .inquire-header {
+        font-size: 1.7em;
     }
 }
 
@@ -88,5 +108,9 @@
 @media only screen and (orientation: portrait) {
     .reserved-item {
         padding-bottom: 2vh;
+    }
+
+    .hdr-msg {
+        font-size: 3em;
     }
 }

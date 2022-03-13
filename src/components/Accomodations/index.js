@@ -7,10 +7,10 @@ class Accomodations extends React.Component {
     return (
       <section id="accomodations">
         <Container fluid className="accomodations-bgrnd" >
-          <Container className="accomodations-page">
+          <div className="accomodations-page">
             <Row className="accomodations-msg">
-              <Row className="hdr-msg">
-                <p>
+              <Row>
+                <p className="hdr-msg">
                   accomodations
                 </p>
               </Row>
@@ -67,8 +67,8 @@ class Accomodations extends React.Component {
             </Row>
             <hr className="ln-brk"/>
             <Row className="accomodations-msg">
-              <Row className="hdr-msg">
-                <p>
+              <Row>
+                <p className="hdr-msg">
                   things to do
                 </p>
               </Row>
@@ -129,7 +129,7 @@ class Accomodations extends React.Component {
               </Row>
             </Row>
             <hr className="ln-brk"/>
-          </Container>
+          </div>
         </Container>
       </section>
     );
