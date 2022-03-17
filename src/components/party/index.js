@@ -42,7 +42,7 @@ class Party extends React.Component {
             <Container className="party-grid">
               <div className='party-box'>
                 <Image className="party-img" src={party_meagan}/>
-                <p className='party-name'>Meagan Smiley</p>
+                <p className='party-name'>Meagan Pavlina</p>
               </div>
               <div className='party-box'>
                 <Image className="party-img" src={party_bre}/>

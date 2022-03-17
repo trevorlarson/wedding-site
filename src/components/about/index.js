@@ -25,7 +25,7 @@ class About extends React.Component {
                   </Col>
                   <Col className="hwm-text align-self-center">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue justo vel arcu egestas bibendum. Suspendisse laoreet lacinia nisl in pellentesque. Nullam dignissim tempor elit. Nunc porta suscipit tortor, ac accumsan ipsum faucibus sed. Pellentesque feugiat eu elit in sollicitudin. Integer sit amet dictum libero. In ac dignissim quam. Quisque volutpat enim ac ex rhoncus, eget hendrerit dui sollicitudin. Pellentesque porta accumsan imperdiet. Quisque at orci fringilla, commodo mauris quis, pellentesque purus. Morbi ultrices metus in metus sagittis, a suscipit mi cursus. Pellentesque vel lectus ipsum. Vivamus consequat est at dui eleifend commodo. Mauris ut sodales quam.
+                    Trevor and Chelsey grew up in different parts of Washington. Trevor in Vancouver, WA and Chelsey in Yakima, WA. Both were very active in high school which led them to cross paths during the summer of 2012 at Mount Triumph Leadership Camp. During their first weeks at Washington State University in the fall 2013 semester, the two ran into each other on Greek Row and immediately recognized each other from their picture together at Mount Triumph. This sparked constant interactions until Trevor asked Chelsey to Winter Formal, and now we're here, over eight years later.
                     </p>
                   </Col>
                 </Row>
@@ -45,7 +45,7 @@ class About extends React.Component {
                   </Col>
                   <Col className="hwm-text align-self-center">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue justo vel arcu egestas bibendum. Suspendisse laoreet lacinia nisl in pellentesque. Nullam dignissim tempor elit. Nunc porta suscipit tortor, ac accumsan ipsum faucibus sed. Pellentesque feugiat eu elit in sollicitudin. Integer sit amet dictum libero. In ac dignissim quam. Quisque volutpat enim ac ex rhoncus, eget hendrerit dui sollicitudin. Pellentesque porta accumsan imperdiet. Quisque at orci fringilla, commodo mauris quis, pellentesque purus. Morbi ultrices metus in metus sagittis, a suscipit mi cursus. Pellentesque vel lectus ipsum. Vivamus consequat est at dui eleifend commodo. Mauris ut sodales quam.
+                    “We had been planning a vacation to Mexico for a while now, and I went into the trip thinking nothing of it. We woke up the first morning and Trevor had an appointment for us at the Spa, this was a bit out of character, but we’re in Cabo so what the heck. Trevor told me we had an excursion planned that night, a  sunset “Booze Cruise”. This definitely threw me off, because I knew Trevor wouldn’t want to propose in a sea of drunk strangers. However when we got on the dock, there wasn’t a “Booze Cruise” waiting for us but of course, a small sailboat, private and romantic as heck. Even the photographer was disguised as a member of the crew. The sunset that night was incredible, and we watched dolphins jump by our boat on the way out. Right about when we got out to the El Archo (The Arch) Trevor got down on one knee, and I said yes. After 8 and a half years together, we can't wait to celebrate with all of you on August 13th!”<br></br> - Chelsey
                     </p>
                   </Col>
                 </Row>
