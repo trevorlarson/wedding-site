@@ -24,6 +24,8 @@ import party_courtney from '../../resources/party-courtney.jpg'
 import party_meagan from '../../resources/party-meagan.jpg'
 import party_kenzie from '../../resources/party-kenzie.jpg'
 import party_shelby from '../../resources/party-shelby.jpg'
+import party_sabrina from '../../resources/party-sabrina.jpg'
+import party_bre from '../../resources/party-bre.jpg'
 
 class Party extends React.Component {
   render() {
@@ -43,7 +45,7 @@ class Party extends React.Component {
                 <p className='party-name'>Meagan Smiley</p>
               </div>
               <div className='party-box'>
-                <Image className="party-img" src={party_sample}/>
+                <Image className="party-img" src={party_bre}/>
                 <p className='party-name'>Breanna Fee</p>
               </div>
               <div className='party-box'>
@@ -51,7 +53,7 @@ class Party extends React.Component {
                 <p className='party-name'>Shelby Hitchcock</p>
               </div>
               <div className='party-box'>
-                <Image className="party-img" src={party_sample}/>
+                <Image className="party-img" src={party_sabrina}/>
                 <p className='party-name'>Sabrina Larson</p>
               </div>
               <div className='party-box'>
