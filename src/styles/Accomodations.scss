@@ -26,7 +26,6 @@
 }
 
 .accomodations-txt {
-    font-size: 1.5em;
     padding-bottom: 3vh;
 }
 
@@ -53,7 +52,7 @@
 }
 
 .oacm-txt {
-    font-size: 0.7em;
+    font-size: 1em;
 }
 
 .inquire-header {
@@ -62,17 +61,16 @@
 }
 
 .ttd-block {
-    font-size: 1.5em;
     padding-bottom: 5vh;
     display: grid;
 }
 
 .ttd-header {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .ttd-item {
-    font-size: 0.7em;
+    font-size: 1em;
 }
 
 @media only screen and (orientation: landscape) {
@@ -84,19 +82,26 @@
     }
 
     .oacm-txt {
-        font-size: 1em;
+        font-size: 1.3em;
+    }
+
+    .oacm-header {
+        font-size: 3em;
     }
 
     .ttd-block {
-        font-size: 2vh;
         padding-bottom: 5vh;
         display: grid;
         grid-template-columns: repeat( auto-fit, minmax(25vw, 1fr) );
     }
 
+    .ttd-header {
+        font-size: 2em;
+    }
+
 
     .ttd-item {
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
     .inquire-header {

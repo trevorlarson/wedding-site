@@ -13,7 +13,8 @@ class Schedule extends React.Component {
                             schedule coming soon
                         </p>
                     </Row>
-                    <h2>TODO: FIGURE OUT</h2>
+                    <h2>Ceremony to begin at 4pm</h2>
+                    {/* <h2>Full schedule coming soon</h2> */}
                     {/* <Row className="schedule-spacing"/>
                     <Row className="schedule-txt">
                         <p>
