@@ -8,7 +8,7 @@ import carousel4 from '../../resources/carousel/carousel4.jpeg'
 import carousel5 from '../../resources/carousel/carousel5.jpeg'
 import carousel6 from '../../resources/carousel/carousel6.jpeg'
 import carousel7 from '../../resources/carousel/carousel7.jpeg'
-import carousel8 from '../../resources/carousel/carousel9.jpeg'
+import carousel8 from '../../resources/carousel/carousel8.jpeg'
 import carousel9 from '../../resources/carousel/carousel9.jpeg'
 
 class Photos extends React.Component {
