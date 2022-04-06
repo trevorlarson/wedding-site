@@ -31,7 +31,7 @@ class Navigation extends React.Component {
                                 <Link className="nav-link" smooth to={ROUTES.PARTY}>
                                     Wedding Party
                                 </Link>
-                                <Link className="nav-link" smooth to={ROUTES.REGISTRY}>
+                                <Link className="nav-link" href={ROUTES.REGISTRY} target="_blank">
                                     Registry
                                 </Link>
                             </Nav>
