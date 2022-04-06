@@ -31,13 +31,13 @@ class Navigation extends React.Component {
                                 <Link className="nav-link" smooth to={ROUTES.PARTY}>
                                     Wedding Party
                                 </Link>
-                                <Link className="nav-link" href={ROUTES.REGISTRY} target="_blank">
+                                <a className="nav-link" href={ROUTES.REGISTRY} target="_blank">
                                     Registry
-                                </Link>
+                                </a>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
-                </Navbar>
+                </Navbar>åå
             </div>
         );
     }
