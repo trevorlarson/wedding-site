@@ -19,7 +19,16 @@ class Landing extends React.Component {
                                 Trevor & Chelsey
                             </p>
                             <p className='title-date'>
-                                8.13.2022 - McMinnville, OR
+                                8.13.2022 - Youngberg Hill Inn and Winery
+                            </p>
+                            <p className='title-address'>
+                                10660 SW Youngberg Hill Rd
+                            </p>
+                            <p className='title-address'>
+                                McMinnville, OR 
+                            </p>
+                            <p className='title-address'>
+                                97128
                             </p>
                             <Button variant="outline-primary" className='rsvp-link' href='https://www.theknot.com/us/trevor-larson-and-chelsey-hitchcock-aug-2022/rsvp' target="_blank">
                                     RSVP
